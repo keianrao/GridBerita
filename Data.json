@@ -1,47 +1,5 @@
 [
 	{
-		"nama": "The Borneo Post",
-		"laman": "https://www.theborneopost.com/",
-		"bahasa": "Inggeris",
-		"pejabat": "Kuching, Sarawak"
-	},
-	{
-		"nama": "Daily Express",
-		"laman": "http://www.dailyexpress.com.my/",
-		"bahasa": "Inggeris",
-		"pejabat": "Kota Kinabalu, Sabah"
-	},
-	{
-		"nama": "The Edge",
-		"laman": "https://www.theedgemarkets.com/",
-		"bahasa": "Inggeris",
-		"pejabat": "Petaling Jaya, Selangor"
-	},
-	{
-		"nama": "New Sarawak Tribune",
-		"laman": "https://www.newsarawaktribune.com.my/",
-		"bahasa": "Inggeris",
-		"pejabat": "Kuching, Sarawak" 
-	},
-	{
-		"nama": "New Straits Times",
-		"laman": "https://www.nst.com.my/"
-		"bahasa": "Inggeris",
-		"pejabat": "Kuala Lumpur"
-	},
-	{
-		"nama": "The Star",
-		"laman": "https://www.thestar.com.my",
-		"bahasa": "Inggeris",
-		"pejabat": "Petaling Jaya, Selangor"
-	},
-	{
-		"nama": "theSun",
-		"laman": "https://www.thesundaily.my/",
-		"bahasa": "Inggeris",
-		"pejabat": "Petaling Jaya, Selangor"
-	},
-	{
 		"nama": "Berita Harian",
 		"laman": "https://www.bharian.com.my/",
 		"bahasa": "Bahasa Malaysia",
@@ -76,6 +34,48 @@
 		"laman": "https://www.utusan.com.my/",
 		"bahasa": "Bahasa Malaysia",
 		"pejabat": "Kuala Lumpur"
+	},
+		{
+		"nama": "The Borneo Post",
+		"laman": "https://www.theborneopost.com/",
+		"bahasa": "Bahasa Inggeris",
+		"pejabat": "Kuching, Sarawak"
+	},
+	{
+		"nama": "Daily Express",
+		"laman": "http://www.dailyexpress.com.my/",
+		"bahasa": "Bahasa Inggeris",
+		"pejabat": "Kota Kinabalu, Sabah"
+	},
+	{
+		"nama": "The Edge",
+		"laman": "https://www.theedgemarkets.com/",
+		"bahasa": "Bahasa Inggeris",
+		"pejabat": "Petaling Jaya, Selangor"
+	},
+	{
+		"nama": "New Sarawak Tribune",
+		"laman": "https://www.newsarawaktribune.com.my/",
+		"bahasa": "Bahasa Inggeris",
+		"pejabat": "Kuching, Sarawak" 
+	},
+	{
+		"nama": "New Straits Times",
+		"laman": "https://www.nst.com.my/",
+		"bahasa": "Bahasa Inggeris",
+		"pejabat": "Kuala Lumpur"
+	},
+	{
+		"nama": "The Star",
+		"laman": "https://www.thestar.com.my",
+		"bahasa": "Bahasa Inggeris",
+		"pejabat": "Petaling Jaya, Selangor"
+	},
+	{
+		"nama": "theSun",
+		"laman": "https://www.thesundaily.my/",
+		"bahasa": "Bahasa Inggeris",
+		"pejabat": "Petaling Jaya, Selangor"
 	},
 	{
 		"nama": "\u4e2d\u570b\u5831",
@@ -146,13 +146,13 @@
 	{
 		"nama": "BERNAMA",
 		"laman": "https://www.bernama.com/en/",
-		"bahasa": "Semua",
+		"bahasa": "Berbilang bahasa",
 		"pejabat": "Kuala Lumpur"
 	},
 	{
 		"nama": "Free Malaysia Today",
 		"laman": "https://www.freemalaysiatoday.com/",
-		"bahasa": "Bahasa Inggeris, Bahasa Malaysia",
+		"bahasa": "Berbilang bahasa",
 		"pejabat": "Petaling Jaya, Selangor"
 	},
 	{
@@ -170,7 +170,7 @@
 	{
 		"nama": "Malaysiakini",
 		"laman": "https://www.malaysiakini.com/",
-		"bahasa": "Semua",
+		"bahasa": "Berbilang bahasa",
 		"pejabat": "Petaling Jaya, Selangor"
 	}
 ]

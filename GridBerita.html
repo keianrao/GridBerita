@@ -4,22 +4,150 @@
 	<META CHARSET="UTF-8" />
 	
 	<STYLE>
-		.laman {
-			// We don't really need to implement the grid through CSS.
-			// Just use a linear layout, but have these .laman blocks
-			// of constant size.
+		.page-header {
+			color: #096;
+			font-size: 32pt;
+			margin: 0;
+			text-decoration: underline;
+		}
+		.kumpulan-header {
+			margin: 8px 0 0 0;
+			text-shadow: #0003 2px 2px;
+		}
+		.petak {
+			display: inline-block;
+			width: 144px;
+			height: 144px;
+			padding: 8px 4px;
+			margin: 8px;
+			
+			border: 1px solid lightgrey;
+			background-color: #00000010;
+			
+			text-align: center;
+		}
+		.petak .logo {
+			width: 96px;
+			height: 96px;
+		}
+		.petak .pejabat {
+			font-size: 10pt;
 		}
 	</STYLE>
 	
 	<BODY>
+		<P>
 		Sorry.. although this site can easily be maintained as
 		a HTML document, it is entirely implemented in JavaScript,
 		as practice for myself.
+		</P>
+		
+		<P>
+		You can temporarily open this page in a modern-JavaScript-enabled
+		browser then save the page. It should work out.
+		</P>
+		
+		<P>
+		Or, if you'd like some programming practice.. here is the file
+		from which we are generating the boxes:
+		<A HREF="Data.json">Data.json</A>.
+		And I intend to explain later how to use it to generate the page
+		yourself. For now, note that each property is in its own line
+		and each akhbar entry starts with the 'name' property, so you
+		can ignore the braces and just parse lines.
+		</P>
 	</BODY>
 	
 	<SCRIPT>
-		// Have to read file contents using XMLHttpRequest.
-		// As you know, that won't work if we aren't in a web server.
-	<SCRIPT>
+		var akhbar2 = null;
+				
+		function addPageHeader(parent) {
+			var header = document.createElement("h1");
+			header.innerText = "Senarai Akhbar Malaysia";
+			header.className = "page-header";
+			
+			parent.appendChild(header);
+		}
+		
+		function addAkhbar2(parent) {
+			var kumpulan2 = new Map();
+			
+			for (var akhbar of akhbar2) {
+				var bahasa = akhbar.bahasa;
+				if (!kumpulan2.has(bahasa)) kumpulan2.set(bahasa, []);
+				kumpulan2.get(bahasa).push(akhbar);
+			}
+			
+			for (var [bahasa, kumpulan] of kumpulan2.entries()) {
+				addKumpulan(parent, bahasa);
+				for (var akhbar of kumpulan) addPetak(parent, akhbar);
+			}
+		}
+		
+		function addKumpulan(parent, namaKumpulan) {
+			var kumpulan = document.createElement("section");
+			var header = document.createElement("h2");
+			
+			kumpulan.className = "kumpulan";
+			
+			header.innerText = namaKumpulan;
+			header.className = "kumpulan-header";
+			
+			kumpulan.appendChild(header);
+			
+			parent.appendChild(kumpulan);
+		}
+		
+		function addPetak(parent, akhbar) {
+			var petak = document.createElement("article");
+			var logo = document.createElement("img");
+			var laman = document.createElement("a");
+			var pejabat = document.createElement("span");
+			
+			petak.className = "petak";
+						
+			var logoSrc = akhbar.nama.toLowerCase().replaceAll(" ", "-");
+			logo.setAttribute("src", logoSrc);
+			// #setAttribute should escape the value, I think..
+			logo.className = "logo";
+			
+			laman.setAttribute("href", akhbar.laman);
+			laman.setAttribute("target", "_blank");
+			laman.className = "laman";
+			laman.innerText = akhbar.nama;
+			
+			pejabat.className = "pejabat";
+			pejabat.innerText = akhbar.pejabat;
+			
+			petak.appendChild(logo);
+			petak.appendChild(document.createElement("br"));
+			petak.appendChild(laman);
+			petak.appendChild(document.createElement("br"));
+			petak.appendChild(pejabat);
+			
+			parent.appendChild(petak);
+		}
+		
+		function loadAkhbar2() {
+			var req = new XMLHttpRequest();
+			req.open("GET", "Data.json");
+			req.onload = function () {
+				if (req.status == 200) {
+					akhbar2 = JSON.parse(req.responseText);
+					addPageHeader(document.body);
+					addAkhbar2(document.body);
+				}
+				else {
+					document.body.innerText = 
+						"We need to and tried to load 'Data.json',"
+						+ " but we failed..";
+				}
+			}
+			req.send();
+		}
+		
+		document.body.innerText = "";
+		loadAkhbar2();
+	</SCRIPT>
 	
 </HTML>
