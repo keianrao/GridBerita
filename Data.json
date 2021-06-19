@@ -3,174 +3,203 @@
 		"nama": "Berita Harian",
 		"laman": "https://www.bharian.com.my/",
 		"bahasa": "Bahasa Malaysia",
-		"pejabat": "Kuala Lumpur"
+		"pejabat": "Kuala Lumpur",
+		"asset_id": "berita_harian"
 	},
 	{
 		"nama": "Harakah",
 		"laman": "https://www.harakahdaily.net",
 		"bahasa": "Bahasa Malaysia",
-		"pejabat": "Kuala Lumpur"
+		"pejabat": "Kuala Lumpur",
+		"asset_id": "harakah"
 	},
 	{
 		"nama": "Harian Metro", 
 		"laman": "https://www.hmetro.com.my/",
 		"bahasa": "Bahasa Malaysia",
-		"pejabat": "Kuala Lumpur"
+		"pejabat": "Kuala Lumpur",
+		"asset_id": "harian_metro"
 	},
 	{
 		"nama": "Kosmo!",
 		"laman": "https://www.kosmo.com.my/",
 		"bahasa": "Bahasa Malaysia",
-		"pejabat": "Kuala Lumpur"
+		"pejabat": "Kuala Lumpur",
+		"asset_id": "kosmo"
 	},
 	{
 		"nama": "Sinar Harian",
 		"laman": "https://www.sinarharian.com.my/",
 		"bahasa": "Bahasa Malaysia",
-		"pejabat": "Shah Alam, Selangor"
+		"pejabat": "Shah Alam, Selangor",
+		"asset_id": "sinar_harian"
 	},
 	{
 		"nama": "Utusan Malaysia",
 		"laman": "https://www.utusan.com.my/",
 		"bahasa": "Bahasa Malaysia",
-		"pejabat": "Kuala Lumpur"
+		"pejabat": "Kuala Lumpur",
+		"asset_id": "utusan_malaysia"
 	},
 		{
 		"nama": "The Borneo Post",
 		"laman": "https://www.theborneopost.com/",
 		"bahasa": "Bahasa Inggeris",
-		"pejabat": "Kuching, Sarawak"
+		"pejabat": "Kuching, Sarawak",
+		"asset_id": "borneo_post"
 	},
 	{
 		"nama": "Daily Express",
 		"laman": "http://www.dailyexpress.com.my/",
 		"bahasa": "Bahasa Inggeris",
-		"pejabat": "Kota Kinabalu, Sabah"
+		"pejabat": "Kota Kinabalu, Sabah",
+		"asset_id": "daily_express"
 	},
 	{
 		"nama": "The Edge",
 		"laman": "https://www.theedgemarkets.com/",
 		"bahasa": "Bahasa Inggeris",
-		"pejabat": "Petaling Jaya, Selangor"
+		"pejabat": "Petaling Jaya, Selangor",
+		"asset_id": "the_edge"
 	},
 	{
 		"nama": "New Sarawak Tribune",
 		"laman": "https://www.newsarawaktribune.com.my/",
 		"bahasa": "Bahasa Inggeris",
-		"pejabat": "Kuching, Sarawak" 
+		"pejabat": "Kuching, Sarawak" ,
+		"asset_id": "new_sarawak_tribune"
 	},
 	{
 		"nama": "New Straits Times",
 		"laman": "https://www.nst.com.my/",
 		"bahasa": "Bahasa Inggeris",
-		"pejabat": "Kuala Lumpur"
+		"pejabat": "Kuala Lumpur",
+		"asset_id": "new_straits_times"
 	},
 	{
 		"nama": "The Star",
 		"laman": "https://www.thestar.com.my",
 		"bahasa": "Bahasa Inggeris",
-		"pejabat": "Petaling Jaya, Selangor"
+		"pejabat": "Petaling Jaya, Selangor",
+		"asset_id": "the_star"
 	},
 	{
 		"nama": "theSun",
 		"laman": "https://www.thesundaily.my/",
 		"bahasa": "Bahasa Inggeris",
-		"pejabat": "Petaling Jaya, Selangor"
+		"pejabat": "Petaling Jaya, Selangor",
+		"asset_id": "the_sun"
 	},
 	{
 		"nama": "\u4e2d\u570b\u5831",
 		"laman": "https://www.chinapress.com.my/",
 		"bahasa": "Bahasa Cina",
-		"pejabat": "Kuala Lumpur"
+		"pejabat": "Kuala Lumpur",
+		"asset_id": "china_press"
 	},
 	{
 		"nama": "\u5149\u660e\u65e5\u5831",
 		"laman": "https://guangming.com.my/",
 		"bahasa": "Bahasa Cina",
-		"pejabat": "Kuala Lumpur"
+		"pejabat": "Kuala Lumpur",
+		"asset_id": "guangming"
 	},
 	{
 		"nama": "\u5149\u83ef\u65e5\u5831",
 		"laman": "https://www.kwongwah.com.my/",
 		"bahasa": "Bahasa Cina",
-		"pejabat": "Pulau Pinang"
+		"pejabat": "Pulau Pinang",
+		"asset_id": "kwongwah"
 	},
 	{
 		"nama": "\u5357\u6d0b\u5546\u5831",
 		"laman": "https://www.enanyang.my/",
 		"bahasa": "Bahasa Cina",
-		"pejabat": "Petaling Jaya, Selangor"
+		"pejabat": "Petaling Jaya, Selangor",
+		"asset_id": "nanyang"
 	},
 	{
 		"nama": "\u6771\u65b9\u65e5\u5831",
 		"laman": "https://www.orientaldaily.com.my/",
 		"bahasa": "Bahasa Cina",
-		"pejabat": "Kuala Lumpur"
+		"pejabat": "Kuala Lumpur",
+		"asset_id": "oriental_daily"
 	},
 	{
 		"nama": "\u534e\u4fa8\u65e5\u62a5",
 		"laman": "http://www.ocdn.com.my/",
 		"bahasa": "Bahasa Cina",
-		"pejabat": "Kota Kinabalu, Sabah"
+		"pejabat": "Kota Kinabalu, Sabah",
+		"asset_id": "huaqiao"
 	},
 	{
 		"nama": "\u8a69\u83ef\u65e5\u5831",
 		"laman": "https://news.seehua.com/",
 		"bahasa": "Bahasa Cina",
-		"pejabat": "Kuching, Sarawak"
+		"pejabat": "Kuching, Sarawak",
+		"asset_id": "seehua"
 	},
 	{
 		"nama": "\u661f\u6d32\u65e5\u5831",
 		"laman": "https://www.sinchew.com.my/",
 		"bahasa": "Bahasa Cina",
-		"pejabat": "Petaling Jaya, Selangor"
+		"pejabat": "Petaling Jaya, Selangor",
+		"asset_id": "sinchew"
 	},
 	{
 		"nama": "Utusan Borneo",
 		"laman": "https://www.utusanborneo.com.my/",
 		"bahasa": "Bahasa Malaysia",
-		"pejabat": "Kuching, Sarawak"
+		"pejabat": "Kuching, Sarawak",
+		"asset_id": "utusan_borneo"
 	},
 	{
 		"nama": "\u0bae\u0b95\u0bcd\u0b95\u0bb3\u0bcd \u0b93\u0b9a\u0bc8",
 		"laman": "https://makkalosai.com.my",
 		"bahasa": "Bahasa Tamil",
-		"pejabat": "Kuala Lumpur"
+		"pejabat": "Kuala Lumpur",
+		"asset_id": "makkalosai"
 	},
 	{
 		"nama": "\u0bae\u0bb2\u0bc7\u0b9a\u0bbf\u0baf\u0bbe \u0ba8\u0ba3\u0bcd\u0baa\u0ba9\u0bcd",
 		"laman": "http://nanban.com.my/",
 		"bahasa": "Bahasa Tamil",
-		"pejabat": "Kuala Lumpur"
+		"pejabat": "Kuala Lumpur",
+		"asset_id": "nanban"
 	},
 	{
 		"nama": "BERNAMA",
 		"laman": "https://www.bernama.com/en/",
 		"bahasa": "Berbilang bahasa",
-		"pejabat": "Kuala Lumpur"
+		"pejabat": "Kuala Lumpur",
+		"asset_id": "bernama"
 	},
 	{
 		"nama": "Free Malaysia Today",
 		"laman": "https://www.freemalaysiatoday.com/",
 		"bahasa": "Berbilang bahasa",
-		"pejabat": "Petaling Jaya, Selangor"
+		"pejabat": "Petaling Jaya, Selangor",
+		"asset_id": "free_malaysia_today"
 	},
 	{
 		"nama": "Malay Mail",
 		"laman": "https://www.malaymail.com/",
 		"bahasa": "Bahasa Inggeris",
-		"pejabat": "Petaling Jaya, Selangor"
+		"pejabat": "Petaling Jaya, Selangor",
+		"asset_id": "malay_mail"
 	},
 	{
 		"nama": "\u7cbe\u5f69\u5927\u9a6c",
 		"laman": "https://www.cincainews.com/",
 		"bahasa": "Bahasa Cina",
-		"pejabat": "Petaling Jaya, Selangor"
+		"pejabat": "Petaling Jaya, Selangor",
+		"asset_id": "cincai"
 	},
 	{
 		"nama": "Malaysiakini",
 		"laman": "https://www.malaysiakini.com/",
 		"bahasa": "Berbilang bahasa",
-		"pejabat": "Petaling Jaya, Selangor"
+		"pejabat": "Petaling Jaya, Selangor",
+		"asset_id": "malaysiakini"
 	}
 ]
