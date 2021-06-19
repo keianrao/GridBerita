@@ -91,56 +91,56 @@
 		"asset_id": "the_sun"
 	},
 	{
-		"nama": "\u4e2d\u570b\u5831",
+		"nama": "中國報",
 		"laman": "https://www.chinapress.com.my/",
 		"bahasa": "Bahasa Cina",
 		"pejabat": "Kuala Lumpur",
 		"asset_id": "china_press"
 	},
 	{
-		"nama": "\u5149\u660e\u65e5\u5831",
+		"nama": "光明日報",
 		"laman": "https://guangming.com.my/",
 		"bahasa": "Bahasa Cina",
 		"pejabat": "Kuala Lumpur",
 		"asset_id": "guangming"
 	},
 	{
-		"nama": "\u5149\u83ef\u65e5\u5831",
+		"nama": "光華日報",
 		"laman": "https://www.kwongwah.com.my/",
 		"bahasa": "Bahasa Cina",
 		"pejabat": "Pulau Pinang",
 		"asset_id": "kwongwah"
 	},
 	{
-		"nama": "\u5357\u6d0b\u5546\u5831",
+		"nama": "南洋商報",
 		"laman": "https://www.enanyang.my/",
 		"bahasa": "Bahasa Cina",
 		"pejabat": "Petaling Jaya, Selangor",
 		"asset_id": "nanyang"
 	},
 	{
-		"nama": "\u6771\u65b9\u65e5\u5831",
+		"nama": "東方日報",
 		"laman": "https://www.orientaldaily.com.my/",
 		"bahasa": "Bahasa Cina",
 		"pejabat": "Kuala Lumpur",
 		"asset_id": "oriental_daily"
 	},
 	{
-		"nama": "\u534e\u4fa8\u65e5\u62a5",
+		"nama": "华侨日报",
 		"laman": "http://www.ocdn.com.my/",
 		"bahasa": "Bahasa Cina",
 		"pejabat": "Kota Kinabalu, Sabah",
 		"asset_id": "huaqiao"
 	},
 	{
-		"nama": "\u8a69\u83ef\u65e5\u5831",
+		"nama": "詩華日報",
 		"laman": "https://news.seehua.com/",
 		"bahasa": "Bahasa Cina",
 		"pejabat": "Kuching, Sarawak",
 		"asset_id": "seehua"
 	},
 	{
-		"nama": "\u661f\u6d32\u65e5\u5831",
+		"nama": "星洲日報",
 		"laman": "https://www.sinchew.com.my/",
 		"bahasa": "Bahasa Cina",
 		"pejabat": "Petaling Jaya, Selangor",
@@ -154,14 +154,14 @@
 		"asset_id": "utusan_borneo"
 	},
 	{
-		"nama": "\u0bae\u0b95\u0bcd\u0b95\u0bb3\u0bcd \u0b93\u0b9a\u0bc8",
+		"nama": "மக்கள் ஓசை",
 		"laman": "https://makkalosai.com.my",
 		"bahasa": "Bahasa Tamil",
 		"pejabat": "Kuala Lumpur",
 		"asset_id": "makkalosai"
 	},
 	{
-		"nama": "\u0bae\u0bb2\u0bc7\u0b9a\u0bbf\u0baf\u0bbe \u0ba8\u0ba3\u0bcd\u0baa\u0ba9\u0bcd",
+		"nama": "மலேசியா நண்பன்",
 		"laman": "http://nanban.com.my/",
 		"bahasa": "Bahasa Tamil",
 		"pejabat": "Kuala Lumpur",
@@ -189,7 +189,7 @@
 		"asset_id": "malay_mail"
 	},
 	{
-		"nama": "\u7cbe\u5f69\u5927\u9a6c",
+		"nama": "精彩大马",
 		"laman": "https://www.cincainews.com/",
 		"bahasa": "Bahasa Cina",
 		"pejabat": "Petaling Jaya, Selangor",

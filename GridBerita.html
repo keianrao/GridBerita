@@ -51,10 +51,38 @@
 		Or, if you'd like some programming practice.. here is the file
 		from which we are generating the boxes:
 		<A HREF="Data.json">Data.json</A>.
-		And I intend to explain later how to use it to generate the page
-		yourself. For now, note that each property is in its own line
-		and each akhbar entry starts with the 'name' property, so you
-		can ignore the braces and just parse lines.
+		
+		Note that each property is in its own line, and each akhbar entry
+		starts with the 'nama' property. So you can ignore the braces and
+		parse the file sequentially.
+		</P>
+		
+		You have to assemble the key-value pairs into newspapers.
+		Optionally, you can then group the newspapers into sections
+		based on the key of your choice.
+		
+		From there, you should print this website's source, except the
+		JavaScript and with nothing in the body. In between the body tags,
+		you have to print HTML for each section/newspaper. Here's a sample:
+		</P>
+		
+		<PRE>
+&lt;section class="kumpulan"&gt;
+	&lt;h2 class="kumpulan-header"&gt;Bahasa Malaysia&lt;/h2&gt;
+	&lt;article class="petak"&gt;
+		&lt;img class="logo" src="images/berita_harian.png"&gt;
+		&lt;!-- Note that src='images/asset_id.png' --&gt;
+		&lt;br&gt;&lt;a class="laman" href="https://www.bharian.com.my/" target="_blank"&gt;Berita Harian&lt;/a&gt;
+		&lt;br&gt;&lt;span class="pejabat"&gt;Kuala Lumpur&lt;/span&gt;
+	&lt;/article&gt;
+&lt;/section&gt;
+		</PRE>
+
+		<P>
+		That's enough information to reconstruct the site!
+		Although, it is one of the longer and more annoying exercises.
+		If you give up, you can look at this
+		<A HREF="GridBerita.gawk">basic GAWK implementation</A>.
 		</P>
 	</BODY>
 	
@@ -80,7 +108,8 @@
 			
 			for (var [bahasa, kumpulan] of kumpulan2.entries()) {
 				addKumpulan(parent, bahasa);
-				for (var akhbar of kumpulan) addPetak(parent, akhbar);
+				var domKumpulan = parent.lastChild;
+				for (var akhbar of kumpulan) addPetak(domKumpulan, akhbar);
 			}
 		}
 		
