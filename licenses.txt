@@ -9,7 +9,7 @@ CC0 Public Domain Dedication, which applies to this file.
 
 -----
 
-'GridBerita.html' is licensed under 'LICENSE.GPL3'.
+'GridBerita.html' and 'GridBerita.gawk' are licensed under 'LICENSE.GPL3'.
 
 Preamble:
 GridBerita - Laman2 web akhbar Malaysia
